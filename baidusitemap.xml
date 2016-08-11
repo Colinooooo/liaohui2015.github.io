@@ -2,34 +2,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
-    
-  <url>
-    <loc>http://liaohui.io/2016/08/11/%E5%9C%A8git%E4%B8%8A%E6%90%AD%E5%BB%BAhexo/</loc>
-    <lastmod>2016-08-11T02:09:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>在git上搭建hexo</title>
-        <pubTime>2016-08-11T02:09:29.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://liaohui.io/2016/08/11/hello-world/</loc>
-    <lastmod>2016-08-11T02:03:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-08-11T02:03:14.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
