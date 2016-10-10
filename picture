@@ -1,0 +1,8 @@
+//网络/本地图片颜色渲染
+- (void)imgChangeColorWithColor:(UIColor*)color imgUrl:(NSString*)imgUrl imgView:(UIImageView*)imgView
+{
+    UIImage *image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrl]]];
+    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+    imgView.image = image;
+    imgView.tintColor = color;
+}
