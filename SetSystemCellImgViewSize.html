@@ -1,0 +1,9 @@
+//设置系统Cell的ImageView的大小
+UIImage *icon = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:self.videoImgUrl]]];
+                CGSize itemSize = CGSizeMake(60, 40);
+                UIGraphicsBeginImageContextWithOptions(itemSize, NO,0.0);
+                CGRect imageRect = CGRectMake(0.0, 0.0, itemSize.width, itemSize.height);
+                [icon drawInRect:imageRect];
+                
+                cell2.imageView.image = UIGraphicsGetImageFromCurrentImageContext();
+                UIGraphicsEndImageContext();
